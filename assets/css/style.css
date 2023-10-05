@@ -1,3 +1,20 @@
-body {
-    background-color: aqua;
+h1 {
+    text-align: center;
+    
+}
+.game-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.game-section .control-section {
+    display: flex;
+    gap: 24px;
+    padding-left: 10em;
+}
+
+.game-section .control-section1 {
+    display: flex;
+    gap: 24px;
+    padding-right: 10em;
 }
