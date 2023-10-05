@@ -1,6 +1,9 @@
-h1 {
+.rps-logo {
+    width: 64px;
+}
+.Header {
     text-align: center;
-    
+    font-size: 3em;
 }
 .game-section {
     display: flex;
@@ -17,4 +20,27 @@ h1 {
     display: flex;
     gap: 24px;
     padding-right: 10em;
+}
+
+.scoreboard-section {
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.scoreboard {
+    display: flex;
+    gap: 24px;
+    padding-left: 20em;
+}
+
+.scoreboard1 {
+    display: flex;
+    gap: 24px;
+    padding-right: 20em;
+}
+.winner {
+    text-align: center;
+    font-size:large;
 }
