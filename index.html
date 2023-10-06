@@ -23,25 +23,28 @@
     <div class="container">
     <div class="game-section">
         <div class="control-section">
-            <button>
-                <img src="assets/images/rock.png" alt="rock"></button>
+            <button id="1">
+                <img src="assets/images/rock.png" alt="rock">
+            </button>
 
-            <button>
-                <img src="assets/images/paper.png" alt="paper"></button>
+            <button id="2">
+                <img src="assets/images/paper.png" alt="paper">
+            </button>
 
-            <button>
-                <img src="assets/images/scissor.png" alt="scissor"></button>
+            <button id="3">
+                <img src="assets/images/scissor.png" alt="scissor">
+            </button>
 
         </div>
         <div> <h2>VS</h2> </div>
         <div class="control-section1">
-            <button>
+            <button id="4">
                 <img src="assets/images/rock.png" alt="rock"></button>
 
-            <button>
+            <button id="5">
                 <img src="assets/images/paper.png" alt="paper"></button>
 
-            <button>
+            <button id="6">
                 <img src="assets/images/scissor.png" alt="scissor"></button>
 
         </div>
@@ -49,12 +52,10 @@
     </div>
 
     <div class="scoreboard-section">
-        <p class="scoreboard">You <span id="win">0</span></p>
-        <p class="scoreboard1">Bot <span id="loss">0</span></p>
-
-
+        <p class="scoreboard">You <span id="your-score">0</span></p>
+        <p class="scoreboard1">Bot <span id="bot-score">0</span></p>
     </div>
-    <div class="winner"><h1>WINNER!!!</h1></div>
+    <div class="winner"><h1 id="winner-display">WINNER!!!</h1></div>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
