@@ -57,7 +57,7 @@ function determineWinner(playerChoice, computerChoice) {
 }
 
 // Function to update the UI
-function updateUI(playerChoice, computerChoice, winner) {
+function updateUI(playerChoice, computerChoice) {
     const id1 = document.getElementById("1");
     const id2 = document.getElementById("2");
     const id3 = document.getElementById("3");

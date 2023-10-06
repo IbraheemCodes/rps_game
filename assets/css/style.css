@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: rgb(168 166 209);
+    width: 100%;
 }
 .container {
     background-color: rgb(48 0 255 / 23%);
@@ -54,4 +55,52 @@ body {
 .winner {
     text-align: center;
     font-size:large;
+}
+
+@media (max-width: 414px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 20px;
+    }
+
+    .scoreboard {
+        padding: 0;
+    }
+
+    .scoreboard1 {
+        padding: 0;
+    }
+
+    .game-section {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .game-section .control-section {
+        padding-left: 8px;
+        width: fit-content;
+    }
+
+    .game-section .control-section1 {
+        padding-left: 8px;
+    }
+
+    .vs-tag{
+        width:fit-content ;
+        margin-right: 0;
+    }
+
+    .scoreboard-section {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scoreboard, .scoreboard1 {
+        max-width: fit-content;
+        display: flex;
+        gap: 4px;
+    }
 }
