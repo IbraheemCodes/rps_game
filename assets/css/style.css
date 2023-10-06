@@ -1,3 +1,14 @@
+body {
+    margin: 0px;
+    background-color: rgb(168 166 209);
+}
+.container {
+    background-color: rgb(48 0 255 / 23%);
+    padding-top: 3rem;
+    border-radius: 6px;
+    width: 95%;
+    margin-left: 26px;
+}
 .rps-logo {
     width: 64px;
 }
